@@ -1,0 +1,87 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: orange;
+    font-family: sans-serif;
+}
+
+.titill{
+    display: inline;
+    float: left;
+    padding: 15px 30px;
+}
+
+nav{
+    display: inline;
+    float: right;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav ul li{
+    width: 130px;
+    line-height: 30px;
+    padding: 5px 10px;
+}
+
+nav ul lu a{
+    text-decoration: none;
+    color: orange
+}
+
+nav ul li a:hover{
+    color: chocolate;
+}
+
+
+/* Event page styles */
+
+.event{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.event h1{
+    width: 100%;
+    text-align: center;
+}
+
+.event p{
+    padding: 10px 15px;
+    font-family: fantasy;
+    color: black;
+}
+
+input[type=email],
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=submit] {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
